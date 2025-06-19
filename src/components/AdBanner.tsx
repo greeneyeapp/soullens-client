@@ -1,24 +1,59 @@
 // src/components/AdBanner.tsx
-import React from 'react';
-import { View, StyleSheet, Dimensions } from 'react-native';
-import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
+import React, { useState, useCallback } from 'react';
+import { View, StyleSheet, Dimensions, Text } from 'react-native';
+import { BannerAd, BannerAdSize, AdEventType } from 'react-native-google-mobile-ads';
 import { bannerAdUnitId } from '../config/admobConfig';
 
 const { width } = Dimensions.get('window');
 
 const AdBanner = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const handleAdLoaded = useCallback(() => {
+    setIsLoaded(true);
+    setError(null);
+    console.log('Banner Ad Loaded Successfully');
+  }, []);
+
+  const handleAdFailedToLoad = useCallback((error: any) => {
+    setIsLoaded(false);
+    setError(error.message || 'Ad failed to load');
+    console.error('Banner Ad Failed to Load: ', error);
+  }, []);
+
+  const handleAdOpened = useCallback(() => {
+    console.log('Banner Ad Opened');
+  }, []);
+
+  const handleAdClosed = useCallback(() => {
+    console.log('Banner Ad Closed');
+  }, []);
+
+  // Hata durumunda hiçbir şey gösterme
+  if (error && !isLoaded) {
+    return null;
+  }
+
   return (
     <View style={styles.container}>
       <BannerAd
         unitId={bannerAdUnitId}
         size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
         requestOptions={{
-          requestNonPersonalizedAdsOnly: true, // Kişiselleştirilmemiş reklamlar iste
+          requestNonPersonalizedAdsOnly: true,
+          keywords: ['lifestyle', 'entertainment', 'photography'], // İlgili anahtar kelimeler
         }}
-        onAdFailedToLoad={error => {
-          console.error('Banner Ad Failed to Load: ', error);
-        }}
+        onAdLoaded={handleAdLoaded}
+        onAdFailedToLoad={handleAdFailedToLoad}
+        onAdOpened={handleAdOpened}
+        onAdClosed={handleAdClosed}
       />
+      {!isLoaded && (
+        <View style={styles.placeholder}>
+          <Text style={styles.placeholderText}>Loading ad...</Text>
+        </View>
+      )}
     </View>
   );
 };
@@ -28,8 +63,22 @@ const styles = StyleSheet.create({
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: 8, // Üstteki içerikle arasında biraz boşluk bırakmak için
-    backgroundColor: '#fdf2f8', // Ekran arka plan rengiyle uyumlu hale getirin
+    paddingTop: 8,
+    backgroundColor: '#fdf2f8',
+    minHeight: 60, // Minimum yükseklik
+  },
+  placeholder: {
+    width: '100%',
+    height: 50,
+    backgroundColor: '#f3f4f6',
+    borderRadius: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginHorizontal: 16,
+  },
+  placeholderText: {
+    color: '#6b7280',
+    fontSize: 12,
   },
 });
 

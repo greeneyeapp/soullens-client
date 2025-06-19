@@ -31,6 +31,7 @@ import LanguageSettingsScreen from '@/screens/LanguageSettingsScreen';
 import CreditsScreen from '@/screens/CreditsScreen';
 import HelpScreen from '@/screens/HelpScreen';
 import InternetErrorModal from '@/components/InternetErrorModal';
+import { MobileAds } from 'react-native-google-mobile-ads';
 
 const Stack = createNativeStackNavigator();
 const CUSTOM_JWT_KEY = 'custom_jwt';
@@ -67,6 +68,34 @@ export default function App() {
 
   useEffect(() => {
     loadFonts();
+  }, []);
+
+  useEffect(() => {
+    // AdMob'u initialize et
+    MobileAds()
+      .initialize()
+      .then(adapterStatuses => {
+        console.log('AdMob initialized:', adapterStatuses);
+      })
+      .catch(error => {
+        console.error('AdMob initialization failed:', error);
+      });
+
+    // GDPR uyumluluğu için (isteğe bağlı)
+    MobileAds()
+      .setRequestConfiguration({
+        // Test device ID'leri (development için)
+        testDeviceIdentifiers: __DEV__ ? ['EMULATOR'] : [],
+        // Maksimum ad content rating
+        maxAdContentRating: 'T', // Teen
+        // Çocuk odaklı treatment
+        tagForChildDirectedTreatment: false,
+        // Alt yaş sınırı treatment
+        tagForUnderAgeOfConsent: false,
+      })
+      .then(() => {
+        console.log('AdMob request configuration set');
+      });
   }, []);
 
   useEffect(() => {

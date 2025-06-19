@@ -1,12 +1,14 @@
 {
-  "name": "preview-app",
-  "version": "1.0.0",
+  "name": "soullens-mobile-ads",
+  "version": "1.2.3",
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "clean": "expo start --clear && cd android && ./gradlew clean && cd ..",
+    "prebuild": "expo prebuild --clean"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
@@ -33,7 +35,7 @@
     "expo-modules-core": "~2.2.3",
     "expo-router": "~4.0.20",
     "expo-secure-store": "~14.0.1",
-    "expo-splash-screen": "~0.29.24",
+    "expo-splash-screen": "~0.27.0",
     "expo-status-bar": "~2.0.1",
     "expo-system-ui": "~4.0.9",
     "expo-updates": "^0.27.4",
@@ -60,5 +62,10 @@
     "react-native-dotenv": "^3.4.11",
     "typescript": "^5.3.3"
   },
-  "private": true
+  "private": true,
+  "expo": {
+    "install": {
+      "exclude": ["react-native-safe-area-context"]
+    }
+  }
 }
