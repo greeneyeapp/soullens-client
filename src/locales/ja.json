@@ -1,0 +1,230 @@
+{
+  "home": {
+    "title": "AIによる写真分析",
+    "description": "写真をアップロードしてAIに分析させよう！",
+    "uploadButton": "写真をアップロード",
+    "analyzeButton": "分析する",
+    "loadingMessage": "サーバーに接続中...",
+    "credits": "クレジット：{{count}}",
+    "continueButton": "続ける",
+    "self_speed_note": "自分自身の分析には速度の選択は不要です。"
+  },
+  "analyze_button": "分析する",
+  "error_title": "エラー",
+  "no_permission": "ギャラリーへのアクセスが許可されていません。",
+  "error_message": "エラーが発生しました。もう一度お試しください。",
+  "confirmation_title": "確認が必要です",
+  "confirmation_message": "この分析には以下のクレジットが必要です",
+  "loading": {
+    "extra": "分析に予想以上の時間がかかっていますが、ご辛抱いただきありがとうございます。結果はまもなく表示されます！",
+    "fast": {
+      "step1": "顔の特徴をスキャン中...",
+      "step2": "感情の痕跡を分析中...",
+      "step3": "年齢と性別を検出中...",
+      "step4": "キャラクター詳細を作成中...",
+      "step5": "インサイトを準備中...",
+      "step6": "最終仕上げ中..."
+    },
+    "deep": {
+      "step1": "心の深層にダイブ中...",
+      "step2": "感情の層を解析中...",
+      "step3": "顔に残る過去の痕跡を探索中...",
+      "step4": "感情的なつながりをマッピング中...",
+      "step5": "宇宙的なインサイトを収集中...",
+      "step6": "あなた専用の分析がまもなく完成！"
+    },
+    "badge": {
+      "premium": "⭐ プレミアム分析",
+      "fast": "⚡ 高速分析"
+    }
+  },
+  "premium_offer": {
+    "title": "💎 さらに深く知りたい？",
+    "descriptions": {
+      "self": {
+        "undefined": "自分から始めたなら、もっと深いプレミアム分析をチェックしてみよう。他の人の分析もクレジットで解放！"
+      },
+      "partner": {
+        "fast": "高速分析完了！より詳細でパーソナルな分析が欲しい？プレミアム分析が待っています。",
+        "deep": "パートナーについて印象的な分析を取得済み。他の人も分析したいなら、数クレジットで可能！"
+      },
+      "ex": {
+        "fast": "元恋人を軽くチェック！でも過去を深掘りしたいなら、プレミアムが最適！",
+        "deep": "過去の秘密を知りたい？さらに多くの分析でその旅を続けよう！"
+      },
+      "crush": {
+        "fast": "密かな想いのヒントをキャッチ！でも本当の答えはプレミアムにあるかも？",
+        "deep": "謎の人を深く分析！もっと知りたければ、プレミアムでさらに深掘りしよう！"
+      }
+    },
+    "button": "クレジットを購入"
+  },
+  "analysis_type": {
+    "title": "誰を分析したい？",
+    "self": "自分自身",
+    "partner": "恋人",
+    "ex": "元恋人",
+    "crush": "気になる人",
+    "free": "無料",
+    "credit": "クレジット"
+  },
+  "analysis_speed": {
+    "title": "分析スピード",
+    "fast_title": "高速分析",
+    "fast_description": "迅速でコスパの良い分析",
+    "deep_title": "詳細分析",
+    "deep_description": "より詳細で印象的な分析",
+    "credit": "クレジット"
+  },
+  "purchase": {
+    "title": "クレジットバンドル",
+    "subtitle": "分析用のクレジットを選択してください！",
+    "back": "戻る",
+    "credits": "クレジット",
+    "fetch_packages_error": "クレジットバンドルの取得中にエラーが発生しました！",
+    "no_packages_found": "購入バンドルが見つかりません。",
+    "validation_failed": "購入の検証に失敗しました。",
+    "generic_purchase_error": "購入中にエラーが発生しました。",
+    "no_packages_available": "クレジットバンドルは現在利用できません。後でもう一度お試しください。",
+    "retry": "再試行"
+  },
+  "no_credits": "クレジットが足りません。プレミアム分析には購入が必要です。",
+  "result": {
+    "summaryTitle": "分析概要",
+    "summaryFinished": "分析完了！",
+    "emotionTitle": "感情の洞察",
+    "genderTitle": "性別の分析",
+    "raceTitle": "人種と肌のコメント",
+    "vibeTitle": "エネルギーと印象",
+    "vibeCardTitle": "あなたのエネルギープロファイル",
+    "detailsTitle": "分析の詳細",
+    "continue": "続ける",
+    "processTime": "処理時間",
+    "quickOverview": "簡易概要",
+    "disclaimer": "このアプリはエンタメ目的です。分析内容は科学的に保証されていません。実際の性格や感情とは異なる場合があります。"
+  },
+  "premium": {
+    "title": "もっと深い分析があなたを待っています！",
+    "description": "恋人や元カレ、義母まで分析可能！？関係性・性格・運命までプレミアムで解き明かそう。",
+    "button": "詳細分析を取得",
+    "coming_soon": "この機能はまもなく公開予定！",
+    "suggestion": "気になる人も分析してみない？💎 プレミアムコンテンツが待っています！"
+  },
+  "emotion": {
+    "happy": "幸せ",
+    "sad": "悲しい",
+    "angry": "怒り",
+    "fear": "恐れ",
+    "surprise": "驚き",
+    "disgust": "嫌悪",
+    "neutral": "中立"
+  },
+  "gender": {
+    "male": "男性",
+    "female": "女性"
+  },
+  "race": {
+    "white": "白人",
+    "black": "黒人",
+    "asian": "アジア人",
+    "indian": "インド人",
+    "middle_eastern": "中東系",
+    "latino_hispanic": "ラテン系 / ヒスパニック"
+  },
+  "age_group_label": "{{age}}歳",
+  "upload": {
+    "title": "あなたの写真をアップロード",
+    "pick_button": "ギャラリーから選択",
+    "analyze_button": "分析を開始",
+    "loading": "分析中..."
+  },
+  "confirm_title": "クレジット使用",
+  "confirm_message": "この分析には以下のクレジットが必要です：",
+  "confirm": "はい、始める",
+  "cancel": "キャンセル",
+  "change_language": "🌐 言語を変更する",
+  "tooltip": {
+    "message": "写真をアップロードする際に顔が正しく配置され、十分に明るいことを確認してください。カメラの前に顔を直接かつ明確に配置すると、最良の結果が得られます。",
+    "understood": "理解しました",
+    "warning": "警告"
+  },
+  "credit_success": {
+    "message": "クレジットが正常に追加されました！",
+    "device_warning": "注意：クレジットはこのデバイス専用です。アプリを削除すると、クレジットは失われます。"
+  },
+  "credit_failed": {
+    "message": "クレジットの購入に失敗しました。",
+    "purchase_button": "クレジットを取得 / 再試行"
+  },
+  "loading_packages": "パッケージを読み込み中...",
+  "image_upload_load_text": "タップしてアップロード",
+  "image_upload.select_first": "最初に画像を選択してください。",
+  "insufficient_credit_title": "クレジット不足",
+  "insufficient_credit_message": "この分析には{{required}}クレジットが必要です。現在の残高は{{current}}です。クレジットを購入しますか？",
+  "purchase_credits_button": "クレジットを購入",
+  "recovering_state": "しばらくお待ちください...",
+  "image_upload.info_modal_title": "適切な写真とは？",
+  "image_upload.info_modal_message": "顔がはっきりと見え、十分な明るさがあり、カメラをまっすぐ見ていて、メガネや帽子などのアクセサリーを着用していない写真をアップロードしてください。顔の特徴がはっきりしていることが重要です。",
+  "image_upload.info_modal_close": "わかりました",
+  "exit_title": "終了の確認",
+  "exit_message": "アプリを終了してもよろしいですか？",
+  "exit": "終了",
+  "splash": {
+    "messages": [
+      "エネルギーが整っています...",
+      "心と魂の間に橋がかかろうとしています...",
+      "過去の痕跡が表面化しています...",
+      "精神的なこだまがあなたの顔に映し出されています...",
+      "深いリーディングが始まろうとしています..."
+    ],
+    "no_connection_title": "インターネット接続がありません",
+    "no_connection_message": "インターネット接続がないとアプリは動作しません。接続を確認してください。",
+    "init_error_title": "初期化エラー",
+    "init_error_message": "アプリを起動できませんでした。再試行してください。",
+    "ok": "OK"
+  },
+  "about_us": "私たちについて",
+  "help_screen_title": "ヘルプ & サポート",
+  "email_optional_label": "メールアドレス",
+  "email_placeholder": "example@email.com",
+  "message_label": "メッセージ",
+  "message_placeholder": "問題点やフィードバックをこちらに詳しくご記入ください...",
+  "send_button": "送信",
+  "help_message_required_alert": "メッセージフィールドを空欄にしないでください。",
+  "help_email_required_alert": "メールアドレスを入力してください。",
+  "help_email_invalid_alert": "有効なメールアドレスを入力してください。",
+  "help_message_sent_success": "メッセージは正常に送信されました。折り返しご連絡いたします。",
+  "help_message_sent_error": "メッセージの送信中にエラーが発生しました。後でもう一度試すか、別のチャネルでお問い合わせください。",
+  "error": "エラー",
+  "success": "成功",
+  "ok": "OK",
+  "sessionExpiredTitle": "セッションの有効期限が切れました",
+  "sessionExpiredMessage": "再度ログインしてください。",
+  "credit_info_loading": "クレジット情報を読み込んでいます、もう一度お試しください。",
+  "image_upload": {
+    "select_first": "最初に画像を選択してください。",
+    "load_text": "タップしてアップロードするか、画像を選択してください",
+    "analyze": "分析する",
+    "title": "画像をアップロード"
+  },
+  "modal_confirm": {
+    "free_title": "毎日の無料分析",
+    "free_message": "毎日の無料プレミアム分析権限を使用しようとしています。続行しますか？",
+    "paid_title": "分析を確認",
+    "paid_message": "この操作には{{credit}}クレジットが必要です。よろしいですか？",
+    "cancel_button": "キャンセル",
+    "confirm_button": "確認"
+  },
+  "free_premium_banner": {
+    "available_today_message": "🎁 SoulLensからのプレゼントです：\n無料プレミアム分析のご利用をお忘れなく！"
+  },
+  "errorScreen": {
+    "error_title": "エラーが発生しました",
+    "error_message": "申し訳ありません。分析中にエラーが発生しました。もう一度お試しください。",
+    "no_face_title": "顔が検出されませんでした",
+    "no_face_message": "アップロードされた写真に明確な人間の顔が検出できませんでした。別の写真をお試しください。",
+    "invalid_image_title": "無効な写真",
+    "invalid_image_message": "アップロードされた写真を処理できませんでした。顔がはっきりと写っている別の写真を使用してください。",
+    "back_home": "ホームに戻る"
+  }
+}

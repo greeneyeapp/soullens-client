@@ -1,0 +1,230 @@
+{
+  "home": {
+    "title": "AI-Powered na Pagsusuri ng Larawan",
+    "description": "I-upload ang iyong larawan at hayaan ang AI ang magsuri!",
+    "uploadButton": "I-upload ang Larawan",
+    "analyzeButton": "Suriin",
+    "loadingMessage": "Kumokonekta sa server...",
+    "credits": "Kredito: {{count}}",
+    "continueButton": "Magpatuloy",
+    "self_speed_note": "Hindi kinakailangan ang pagpili ng bilis sa sariling pagsusuri."
+  },
+  "analyze_button": "Suriin",
+  "error_title": "Error",
+  "no_permission": "Walang pahintulot sa gallery.",
+  "error_message": "Nagkaroon ng error. Pakiulit muli.",
+  "confirmation_title": "Kinakailangan ang Kumpirmasyon",
+  "confirmation_message": "Ang pagsusuring ito ay gagamit ng sumusunod na mga kredito",
+  "loading": {
+    "extra": "Mas matagal kaysa inaasahan ang pagsusuri, salamat sa iyong pasensya. Malapit nang lumabas ang resulta!",
+    "fast": {
+      "step1": "Ini-scan ang mga tampok ng mukha...",
+      "step2": "Sinusuri ang emosyonal na bakas...",
+      "step3": "Tinutukoy ang edad at kasarian...",
+      "step4": "Gumagawa ng detalye ng pagkatao...",
+      "step5": "Inihahanda ang mga insight...",
+      "step6": "Inilalagay ang huling mga detalye..."
+    },
+    "deep": {
+      "step1": "Sumisid sa lalim ng isipan...",
+      "step2": "Ina-unlayer ang mga emosyon...",
+      "step3": "Hinahanap ang bakas ng nakaraan sa mukha...",
+      "step4": "Gumagawa ng mapa ng koneksyon...",
+      "step5": "Kinokolekta ang cosmic na insight...",
+      "step6": "Halos tapos na ang iyong eksklusibong pagsusuri!"
+    },
+    "badge": {
+      "premium": "⭐ Premium na Pagsusuri",
+      "fast": "⚡ Mabilis na Pagsusuri"
+    }
+  },
+  "premium_offer": {
+    "title": "💎 Tuklasin pa!",
+    "descriptions": {
+      "self": {
+        "undefined": "Nagsimula ka sa sarili mo—pero para sa mas malalim at espesyal na pagsusuri, subukan ang Premium. I-unlock ang iba gamit ang kredito!"
+      },
+      "partner": {
+        "fast": "Tapos na ang mabilis na pagsusuri! Gusto mo ng mas detalyado at personal na pananaw? Nandito ang Premium para sa iyo.",
+        "deep": "Nakuha mo na ang kahanga-hangang pagsusuri sa iyong partner. Gusto mong magsuri pa ng iba? Kaunting kredito lang ang kailangan!"
+      },
+      "ex": {
+        "fast": "Tiningnan namin sandali ang iyong ex. Gusto mong hukayin pa ang nakaraan? Para sa iyo ang Premium.",
+        "deep": "Handa ka bang alamin ang mga sikreto ng nakaraan? Ipagpatuloy ito gamit ang mas maraming pagsusuri!"
+      },
+      "crush": {
+        "fast": "Na-detect namin ang palihim mong damdamin. Pero huwag palampasin ang buong kwento sa Premium!",
+        "deep": "Na-analyze na namin nang malalim ang misteryosong taong ito. Gusto mo pa? Palalimin pa gamit ang Premium."
+      }
+    },
+    "button": "Bumili ng Kredito"
+  },
+  "analysis_type": {
+    "title": "Sino ang gusto mong suriin?",
+    "self": "Sarili Ko",
+    "partner": "Aking Partner",
+    "ex": "Aking Ex",
+    "crush": "Aking Crush",
+    "free": "Libre",
+    "credit": "kredito"
+  },
+  "analysis_speed": {
+    "title": "Bilis ng Pagsusuri",
+    "fast_title": "Mabilis na Pagsusuri",
+    "fast_description": "Mabilis at abot-kayang pagsusuri",
+    "deep_title": "Malalim na Pagsusuri",
+    "deep_description": "Detalyado at kahanga-hangang pagsusuri",
+    "credit": "kredito"
+  },
+  "purchase": {
+    "title": "Mga Bundle ng Credit",
+    "subtitle": "Pumili ng mga credit para sa iyong pagsusuri!",
+    "back": "Bumalik",
+    "credits": "mga credit",
+    "fetch_packages_error": "Error sa pagkuha ng mga bundle ng credit!",
+    "no_packages_found": "Walang nahanap na mga bundle ng pagbili.",
+    "validation_failed": "Nabigo ang pagpapatunay ng pagbili.",
+    "generic_purchase_error": "May naganap na error habang bumibili.",
+    "no_packages_available": "Hindi available ang mga bundle ng credit sa ngayon. Subukan mamaya.",
+    "retry": "Subukang Muli"
+  },
+  "no_credits": "Walang sapat na kredito. Bumili ng kredito para sa premium na pagsusuri.",
+  "result": {
+    "summaryTitle": "Buod ng Pagsusuri",
+    "summaryFinished": "Tapos na ang pagsusuri!",
+    "emotionTitle": "Insight sa Emosyon",
+    "genderTitle": "Pagsusuri ng Kasarian",
+    "raceTitle": "Pinagmulan at Komento sa Balat",
+    "vibeTitle": "Enerhiya at Obserbasyon",
+    "vibeCardTitle": "Iyong Energy Profile",
+    "detailsTitle": "Mga Detalye ng Pagsusuri",
+    "continue": "Magpatuloy",
+    "processTime": "Oras ng Proseso",
+    "quickOverview": "Mabilis na Pangkalahatang-ideya",
+    "disclaimer": "Ang app na ito ay para sa libangan lamang at hindi nagbibigay ng siyentipikong katiyakan. Maaaring hindi nito ipakita ang tunay na emosyon o personalidad."
+  },
+  "premium": {
+    "title": "Mas Marami Pa ang Naghihintay!",
+    "description": "Gusto mo bang suriin ang iyong crush, partner, o kahit ang biyenan mo? Ang mga premium na pagsusuri ay naglalaman ng ugnayan, personalidad, at higit pa.",
+    "button": "Kumuha ng Detalyadong Pagsusuri",
+    "coming_soon": "Malapit na ang feature na ito!",
+    "suggestion": "Gusto mo bang suriin ang crush mo rin? 💎 Nandito na ang Premium content!"
+  },
+  "emotion": {
+    "happy": "Masaya",
+    "sad": "Malungkot",
+    "angry": "Galit",
+    "fear": "Takot",
+    "surprise": "Nagulat",
+    "disgust": "Nandidiri",
+    "neutral": "Neutral"
+  },
+  "gender": {
+    "male": "Lalaki",
+    "female": "Babae"
+  },
+  "race": {
+    "white": "Puti",
+    "black": "Itim",
+    "asian": "Asyano",
+    "indian": "Indiyano",
+    "middle_eastern": "Gitnang Silangan",
+    "latino_hispanic": "Latino / Hispaniko"
+  },
+  "age_group_label": "{{age}} taong gulang",
+  "upload": {
+    "title": "I-upload ang Iyong Larawan",
+    "pick_button": "Pumili mula sa Gallery",
+    "analyze_button": "Simulan ang Pagsusuri",
+    "loading": "Ina-analyze..."
+  },
+  "confirm_title": "Paggamit ng Kredito",
+  "confirm_message": "Ang pagsusuring ito ay nangangailangan ng mga sumusunod na kredito:",
+  "confirm": "Oo, Simulan",
+  "cancel": "Kanselahin",
+  "change_language": "🌐 Palitan ang Wika",
+  "tooltip": {
+    "message": "Pakitang tiyakin na ang iyong mukha ay wastong naka-align at maayos ang pag-iilaw kapag nag-upload ng iyong larawan. Ang paglalagay ng iyong mukha nang diretso at malinaw sa harap ng kamera ay makakatulong sa iyo na makuha ang pinakamahusay na mga resulta.",
+    "understood": "Naiintindihan",
+    "warning": "Babala"
+  },
+  "credit_success": {
+    "message": "Matagumpay na naidagdag ang mga credit!",
+    "device_warning": "Tandaan: Ang iyong mga credit ay partikular sa device na ito. Kung tatanggalin mo ang app, mawawala ang iyong mga credit."
+  },
+  "credit_failed": {
+    "message": "Nabigo ang pagbili ng credit.",
+    "purchase_button": "Kumuha ng Credits / Subukang Muli"
+  },
+  "loading_packages": "Nilo-load ang Mga Package...",
+  "image_upload_load_text": "I-tap para mag-upload",
+  "image_upload.select_first": "Mangyaring pumili muna ng larawan.",
+  "insufficient_credit_title": "Hindi Sapat na Credit",
+  "insufficient_credit_message": "Kailangan mo ng {{required}} credits para sa pagsusuring ito. Ang iyong kasalukuyang balanse ay {{current}}. Gusto mo bang bumili ng credits?",
+  "purchase_credits_button": "Bumili ng Credits",
+  "recovering_state": "Mangyaring maghintay...",
+  "image_upload.info_modal_title": "Paano Dapat Ang Tamang Litrato?",
+  "image_upload.info_modal_message": "Paki-upload ang litratong may maayos na ilaw kung saan malinaw na nakikita ang iyong mukha, nakatingin diretso sa camera, at walang mga aksesorya tulad ng salamin o sombrero. Mahalaga na malinaw ang mga katangian ng iyong mukha.",
+  "image_upload.info_modal_close": "Naintindihan",
+  "exit_title": "Kumpirma ng Paglabas",
+  "exit_message": "Sigurado ka bang gusto mong lumabas sa app?",
+  "exit": "Lumabas",
+  "splash": {
+    "messages": [
+      "Naaayon na ang mga enerhiya...",
+      "Isang tulay ang nabubuo sa pagitan ng isip at kaluluwa...",
+      "Lumalabas ang mga bakas ng nakaraan...",
+      "Sumasalamin sa iyong mukha ang espiritwal na alingawngaw...",
+      "Malapit nang magsimula ang malalim na pagbasa..."
+    ],
+    "no_connection_title": "Walang Koneksyon sa Internet",
+    "no_connection_message": "Hindi gagana ang app nang walang koneksyon sa internet. Pakisuri ang iyong koneksyon.",
+    "init_error_title": "Error sa Inisyal",
+    "init_error_message": "Hindi ma-load ang app. Pakisubukang muli.",
+    "ok": "OK"
+  },
+  "about_us": "Tungkol sa Amin",
+  "help_screen_title": "Tulong at Suporta",
+  "email_optional_label": "Iyong Email Address",
+  "email_placeholder": "halimbawa@email.com",
+  "message_label": "Iyong Mensahe",
+  "message_placeholder": "Maaari mong isulat ang iyong problema o puna nang detalyado dito...",
+  "send_button": "Ipadala",
+  "help_message_required_alert": "Pakiusap huwag iwanang blangko ang patlang ng mensahe.",
+  "help_email_required_alert": "Pakilagay ang iyong email address.",
+  "help_email_invalid_alert": "Pakilagay ang isang wastong email address.",
+  "help_message_sent_success": "Matagumpay na naipadala ang iyong mensahe. Babalikan ka namin sa lalong madaling panahon.",
+  "help_message_sent_error": "Nagkaroon ng error habang ipinapadala ang iyong mensahe. Pakisubukang muli mamaya o makipag-ugnayan sa amin sa pamamagitan ng ibang channel.",
+  "error": "Mali",
+  "success": "Tagumpay",
+  "ok": "OK",
+  "sessionExpiredTitle": "Nag-expire na ang Session",
+  "sessionExpiredMessage": "Paki-log in muli.",
+  "credit_info_loading": "Naglo-load ang impormasyon ng credit, pakisubukang muli.",
+  "image_upload": {
+    "select_first": "Mangyaring pumili muna ng isang imahe.",
+    "load_text": "Pindutin para mag-upload o pumili ng imahe",
+    "analyze": "Suriin",
+    "title": "Mag-upload ng Imahe"
+  },
+  "modal_confirm": {
+    "free_title": "Araw-araw na Libreng Pagsusuri",
+    "free_message": "Gagamitin mo na ang iyong karapatan sa araw-araw na libreng premium na pagsusuri. Nais mo bang magpatuloy?",
+    "paid_title": "Kumpirmahin ang Pagsusuri",
+    "paid_message": "Ang aksyon na ito ay magkakahalaga ng {{credit}} credit. Sigurado ka ba?",
+    "cancel_button": "Kanselahin",
+    "confirm_button": "Kumpirmahin"
+  },
+  "free_premium_banner": {
+    "available_today_message": "🎁 Regalo mula sa SoulLens para sa Iyo:\nHuwag Kalimutang Gamitin ang Iyong Libreng Premium na Pagsusuri!"
+  },
+  "errorScreen": {
+    "error_title": "Nagkaroon ng error",
+    "error_message": "Paumanhin, nagkaroon ng problema habang sinusuri. Pakisubukang muli.",
+    "no_face_title": "Walang Mukha na Natukoy",
+    "no_face_message": "Walang malinaw na mukha ang natukoy sa in-upload na larawan. Pakisubukan ang ibang larawan.",
+    "invalid_image_title": "Di-wastong Larawan",
+    "invalid_image_message": "Hindi maiproseso ang in-upload na larawan. Pakigamit ang larawang malinaw ang mukha mo.",
+    "back_home": "Bumalik sa Home"
+  }
+}

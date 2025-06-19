@@ -1,0 +1,230 @@
+{
+  "home": {
+    "title": "Análisis de Fotos con IA",
+    "description": "¡Sube tu foto y deja que la IA la analice!",
+    "uploadButton": "Subir Foto",
+    "analyzeButton": "Analizar",
+    "loadingMessage": "Conectando con el servidor...",
+    "credits": "Créditos: {{count}}",
+    "continueButton": "Continuar",
+    "self_speed_note": "No se requiere selección de velocidad para el autoanálisis."
+  },
+  "analyze_button": "Analizar",
+  "error_title": "Error",
+  "no_permission": "No se otorgó permiso para acceder a la galería.",
+  "error_message": "Ocurrió un error. Por favor, inténtalo de nuevo.",
+  "confirmation_title": "Se requiere confirmación",
+  "confirmation_message": "Este análisis costará los siguientes créditos",
+  "loading": {
+    "extra": "El análisis está tardando más de lo esperado, gracias por tu paciencia. ¡El resultado estará listo en breve!",
+    "fast": {
+      "step1": "Escaneando rasgos faciales...",
+      "step2": "Analizando huellas emocionales...",
+      "step3": "Detectando edad y género...",
+      "step4": "Creando detalles del carácter...",
+      "step5": "Preparando ideas...",
+      "step6": "Agregando toques finales..."
+    },
+    "deep": {
+      "step1": "Profundizando en la mente...",
+      "step2": "Descifrando capas emocionales...",
+      "step3": "Buscando huellas del pasado...",
+      "step4": "Trazando mapa de interacciones...",
+      "step5": "Reuniendo ideas cósmicas...",
+      "step6": "¡Tu análisis exclusivo está casi listo!"
+    },
+    "badge": {
+      "premium": "⭐ Análisis Premium",
+      "fast": "⚡ Análisis Rápido"
+    }
+  },
+  "premium_offer": {
+    "title": "💎 ¡Descubre Más!",
+    "descriptions": {
+      "self": {
+        "undefined": "Comenzaste contigo mismo, pero prueba el Premium para un análisis más profundo y personalizado. ¡Desbloquea más con créditos!"
+      },
+      "partner": {
+        "fast": "¡Análisis rápido completado! ¿Quieres una visión más personal y detallada? El análisis Premium te espera.",
+        "deep": "Has recibido un análisis impresionante de tu pareja. ¿Quieres más? ¡Unos pocos créditos bastan!"
+      },
+      "ex": {
+        "fast": "Echamos un vistazo rápido a tu ex. ¿Quieres profundizar en el pasado? Premium es para ti.",
+        "deep": "¿Listo para descubrir los secretos del pasado? Sigue explorando con más análisis."
+      },
+      "crush": {
+        "fast": "Captamos pistas de tus sentimientos secretos. ¡Pero no te pierdas la historia completa en Premium!",
+        "deep": "Hemos analizado a esta persona misteriosa a fondo. ¿Quieres más? Amplía tu visión con Premium."
+      }
+    },
+    "button": "Comprar Créditos"
+  },
+  "analysis_type": {
+    "title": "¿A quién quieres analizar?",
+    "self": "A mí mismo",
+    "partner": "A mi pareja",
+    "ex": "A mi ex",
+    "crush": "A mi crush",
+    "free": "Gratis",
+    "credit": "crédito"
+  },
+  "analysis_speed": {
+    "title": "Velocidad del Análisis",
+    "fast_title": "Análisis Rápido",
+    "fast_description": "Análisis rápido y rentable",
+    "deep_title": "Análisis Profundo",
+    "deep_description": "Análisis detallado e impresionante",
+    "credit": "crédito"
+  },
+  "purchase": {
+    "title": "Paquetes de Crédito",
+    "subtitle": "¡Elige créditos para tu análisis!",
+    "back": "Volver",
+    "credits": "créditos",
+    "fetch_packages_error": "¡Error al obtener los paquetes de crédito!",
+    "no_packages_found": "No se encontraron paquetes de compra.",
+    "validation_failed": "Falló la validación de la compra.",
+    "generic_purchase_error": "Ocurrió un error durante la compra.",
+    "no_packages_available": "Los paquetes de crédito no están disponibles actualmente. Inténtalo más tarde.",
+    "retry": "Reintentar"
+  },
+  "no_credits": "No tienes suficientes créditos. Compra créditos para el análisis premium.",
+  "result": {
+    "summaryTitle": "Resumen del Análisis",
+    "summaryFinished": "¡Análisis Completado!",
+    "emotionTitle": "Perspectiva Emocional",
+    "genderTitle": "Análisis de Género",
+    "raceTitle": "Origen y Comentario de Piel",
+    "vibeTitle": "Energía y Comentario",
+    "vibeCardTitle": "Tu Perfil Energético",
+    "detailsTitle": "Detalles del Análisis",
+    "continue": "Continuar",
+    "processTime": "Tiempo de proceso",
+    "quickOverview": "Resumen rápido",
+    "disclaimer": "Esta app es solo para fines de entretenimiento y los análisis no garantizan precisión científica. Puede que no reflejen características reales o emociones verdaderas."
+  },
+  "premium": {
+    "title": "¡Te Espera Mucho Más!",
+    "description": "¿Quieres analizar a tu crush, pareja o incluso a tu suegra? Dinámicas de relación, personalidad y más en nuestros análisis exclusivos.",
+    "button": "Obtener Análisis Detallado",
+    "coming_soon": "¡Esta función estará disponible pronto!",
+    "suggestion": "¿Quieres analizar también a tu crush? 💎 ¡Contenido premium te espera!"
+  },
+  "emotion": {
+    "happy": "Feliz",
+    "sad": "Triste",
+    "angry": "Enojado",
+    "fear": "Asustado",
+    "surprise": "Sorprendido",
+    "disgust": "Asqueado",
+    "neutral": "Neutral"
+  },
+  "gender": {
+    "male": "Masculino",
+    "female": "Femenino"
+  },
+  "race": {
+    "white": "Blanco",
+    "black": "Negro",
+    "asian": "Asiático",
+    "indian": "Indio",
+    "middle_eastern": "Medio Oriente",
+    "latino_hispanic": "Latino / Hispano"
+  },
+  "age_group_label": "{{age}} años",
+  "upload": {
+    "title": "Sube Tu Foto",
+    "pick_button": "Elegir de la Galería",
+    "analyze_button": "Iniciar Análisis",
+    "loading": "Analizando..."
+  },
+  "confirm_title": "Uso de Créditos",
+  "confirm_message": "Este análisis requiere los siguientes créditos:",
+  "confirm": "Sí, comenzar",
+  "cancel": "Cancelar",
+  "change_language": "🌐 Cambiar idioma",
+  "tooltip": {
+    "message": "Asegúrate de que tu rostro esté alineado correctamente y bien iluminado al subir tu foto. Colocar tu rostro directamente y claramente frente a la cámara te ayudará a obtener los mejores resultados.",
+    "understood": "Entendido",
+    "warning": "Advertencia"
+  },
+  "credit_success": {
+    "message": "¡Créditos añadidos con éxito!",
+    "device_warning": "Nota: Tus créditos son específicos de este dispositivo. Si eliminas la aplicación, tus créditos se perderán."
+  },
+  "credit_failed": {
+    "message": "Falló la compra de créditos.",
+    "purchase_button": "Obtener Créditos / Intentar de nuevo"
+  },
+  "loading_packages": "Cargando paquetes...",
+  "image_upload_load_text": "Toca para subir",
+  "image_upload.select_first": "Por favor, selecciona una imagen primero.",
+  "insufficient_credit_title": "Crédito insuficiente",
+  "insufficient_credit_message": "Necesitas {{required}} créditos para este análisis. Tu saldo actual es de {{current}}. ¿Te gustaría comprar créditos?",
+  "purchase_credits_button": "Comprar créditos",
+  "recovering_state": "Espere por favor...",
+  "image_upload.info_modal_title": "¿Cómo debe ser la foto correcta?",
+  "image_upload.info_modal_message": "Por favor, sube una foto bien iluminada donde tu rostro sea claramente visible, mirando directamente a la cámara y sin accesorios como gafas o sombreros. Es importante que tus rasgos faciales sean nítidos.",
+  "image_upload.info_modal_close": "Entendido",
+  "exit_title": "Confirmar salida",
+  "exit_message": "¿Estás seguro de que deseas salir de la aplicación?",
+  "exit": "Salir",
+  "splash": {
+    "messages": [
+      "Las energías se están alineando...",
+      "Un puente entre mente y alma está surgiendo...",
+      "Las huellas del pasado están emergiendo...",
+      "Ecos espirituales se reflejan en tu rostro...",
+      "Una lectura profunda está a punto de comenzar..."
+    ],
+    "no_connection_title": "Sin conexión a Internet",
+    "no_connection_message": "La aplicación no puede funcionar sin conexión a Internet. Por favor, verifica tu conexión.",
+    "init_error_title": "Error de inicialización",
+    "init_error_message": "No se pudo iniciar la aplicación. Por favor, inténtalo de nuevo.",
+    "ok": "OK"
+  },
+  "about_us": "Sobre nosotros",
+  "help_screen_title": "Ayuda y Soporte",
+  "email_optional_label": "Tu dirección de correo electrónico",
+  "email_placeholder": "ejemplo@email.com",
+  "message_label": "Tu Mensaje",
+  "message_placeholder": "Puedes escribir tu problema o comentarios en detalle aquí...",
+  "send_button": "Enviar",
+  "help_message_required_alert": "Por favor, no deje el campo del mensaje en blanco.",
+  "help_email_required_alert": "Por favor, introduzca su dirección de correo electrónico.",
+  "help_email_invalid_alert": "Por favor, introduce una dirección de correo electrónico válida.",
+  "help_message_sent_success": "Tu mensaje ha sido enviado con éxito. Nos pondremos en contacto contigo en breve.",
+  "help_message_sent_error": "Ocurrió un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde o contáctanos a través de otro canal.",
+  "error": "Error",
+  "success": "Éxito",
+  "ok": "OK",
+  "sessionExpiredTitle": "Sesión Expirada",
+  "sessionExpiredMessage": "Por favor, inicie sesión de nuevo.",
+  "credit_info_loading": "La información de crédito se está cargando, por favor inténtelo de nuevo.",
+  "image_upload": {
+    "select_first": "Por favor, seleccione primero una imagen.",
+    "load_text": "Toque para subir o seleccione una imagen",
+    "analyze": "Analizar",
+    "title": "Subir Imagen"
+  },
+  "modal_confirm": {
+    "free_title": "Análisis gratuito diario",
+    "free_message": "Está a punto de utilizar su derecho de análisis premium gratuito diario. ¿Desea continuar?",
+    "paid_title": "Confirmar Análisis",
+    "paid_message": "Esta acción costará {{credit}} crédito. ¿Está seguro?",
+    "cancel_button": "Cancelar",
+    "confirm_button": "Confirmar"
+  },
+  "free_premium_banner": {
+    "available_today_message": "🎁 Un Regalo de SoulLens para Ti:\n¡No Olvides Usar Tu Análisis Premium Gratuito!"
+  },
+  "errorScreen": {
+    "error_title": "Ocurrió un problema",
+    "error_message": "Lo sentimos, ocurrió un error durante el análisis. Por favor, inténtalo de nuevo.",
+    "no_face_title": "No se detectó un rostro",
+    "no_face_message": "No se pudo detectar un rostro humano claro en la foto subida. Intenta con otra imagen.",
+    "invalid_image_title": "Foto inválida",
+    "invalid_image_message": "La foto subida no se pudo procesar. Por favor, intenta con otra donde tu rostro sea claramente visible.",
+    "back_home": "Volver al inicio"
+  }
+}

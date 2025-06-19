@@ -1,0 +1,230 @@
+{
+  "home": {
+    "title": "Analisis Foto dengan AI",
+    "description": "Unggah fotomu dan biarkan AI menganalisisnya!",
+    "uploadButton": "Unggah Foto",
+    "analyzeButton": "Analisis",
+    "loadingMessage": "Menghubungkan ke server...",
+    "credits": "Kredit: {{count}}",
+    "continueButton": "Lanjut",
+    "self_speed_note": "Tidak perlu memilih kecepatan untuk analisis diri."
+  },
+  "analyze_button": "Analisis",
+  "error_title": "Kesalahan",
+  "no_permission": "Izin akses galeri tidak diberikan.",
+  "error_message": "Terjadi kesalahan. Silakan coba lagi.",
+  "confirmation_title": "Konfirmasi Diperlukan",
+  "confirmation_message": "Analisis ini akan menggunakan kredit berikut",
+  "loading": {
+    "extra": "Analisis memakan waktu lebih lama dari yang diperkirakan, terima kasih atas kesabaran Anda. Hasilnya akan segera siap!",
+    "fast": {
+      "step1": "Memindai fitur wajah...",
+      "step2": "Menganalisis jejak emosi...",
+      "step3": "Mendeteksi usia dan jenis kelamin...",
+      "step4": "Membuat detail karakter...",
+      "step5": "Menyiapkan wawasan...",
+      "step6": "Sentuhan akhir sedang dilakukan..."
+    },
+    "deep": {
+      "step1": "Menyelami kedalaman pikiran...",
+      "step2": "Menguraikan lapisan emosi...",
+      "step3": "Mencari jejak masa lalu di wajah...",
+      "step4": "Memetakan koneksi emosional...",
+      "step5": "Mengumpulkan wawasan dari alam semesta...",
+      "step6": "Analisis eksklusifmu hampir siap!"
+    },
+    "badge": {
+      "premium": "⭐ Analisis Premium",
+      "fast": "⚡ Analisis Cepat"
+    }
+  },
+  "premium_offer": {
+    "title": "💎 Temukan Lebih Banyak!",
+    "descriptions": {
+      "self": {
+        "undefined": "Mulai dari diri sendiri, tapi untuk sesuatu yang lebih dalam dan pribadi, coba Premium. Buka analisis lainnya dengan kredit!"
+      },
+      "partner": {
+        "fast": "Analisis cepat selesai! Ingin wawasan yang lebih mendalam dan personal? Premium siap menunggumu.",
+        "deep": "Kamu mendapatkan analisis mengesankan tentang pasanganmu. Ingin menganalisis lebih banyak orang? Beberapa kredit saja cukup!"
+      },
+      "ex": {
+        "fast": "Kami sekilas melihat mantanmu. Ingin menggali lebih dalam ke masa lalu? Premium adalah pilihanmu.",
+        "deep": "Ingin membuka rahasia masa lalu? Lanjutkan dengan lebih banyak analisis!"
+      },
+      "crush": {
+        "fast": "Kami menangkap petunjuk dari perasaan terpendammu. Jangan lewatkan analisis lengkapnya di Premium!",
+        "deep": "Kami telah menganalisis sosok misterius ini secara mendalam. Ingin lebih banyak? Perluas wawasanmu dengan Premium."
+      }
+    },
+    "button": "Beli Kredit"
+  },
+  "analysis_type": {
+    "title": "Siapa yang ingin kamu analisis?",
+    "self": "Diri Sendiri",
+    "partner": "Pasangan",
+    "ex": "Mantan",
+    "crush": "Gebetan",
+    "free": "Gratis",
+    "credit": "kredit"
+  },
+  "analysis_speed": {
+    "title": "Kecepatan Analisis",
+    "fast_title": "Analisis Cepat",
+    "fast_description": "Analisis cepat dan hemat biaya",
+    "deep_title": "Analisis Mendalam",
+    "deep_description": "Analisis yang detail dan mengesankan",
+    "credit": "kredit"
+  },
+  "purchase": {
+    "title": "Bundel Kredit",
+    "subtitle": "Pilih kredit untuk analisis Anda!",
+    "back": "Kembali",
+    "credits": "kredit",
+    "fetch_packages_error": "Gagal mengambil bundel kredit!",
+    "no_packages_found": "Bundel pembelian tidak ditemukan.",
+    "validation_failed": "Validasi pembelian gagal.",
+    "generic_purchase_error": "Terjadi kesalahan saat pembelian.",
+    "no_packages_available": "Bundel kredit tidak tersedia saat ini. Coba lagi nanti.",
+    "retry": "Coba Lagi"
+  },
+  "no_credits": "Kredit tidak cukup. Silakan beli kredit untuk analisis premium.",
+  "result": {
+    "summaryTitle": "Ringkasan Analisis",
+    "summaryFinished": "Analisis Selesai!",
+    "emotionTitle": "Wawasan Emosi",
+    "genderTitle": "Analisis Jenis Kelamin",
+    "raceTitle": "Asal & Komentar Kulit",
+    "vibeTitle": "Energi & Ulasan",
+    "vibeCardTitle": "Profil Energimu",
+    "detailsTitle": "Detail Analisis",
+    "continue": "Lanjut",
+    "processTime": "Waktu Proses",
+    "quickOverview": "Tinjauan Cepat",
+    "disclaimer": "Aplikasi ini untuk hiburan semata dan tidak menjamin keakuratan ilmiah. Hasil analisis mungkin tidak mencerminkan kepribadian atau emosi asli."
+  },
+  "premium": {
+    "title": "Lebih Banyak Menantimu!",
+    "description": "Ingin menganalisis gebetan, pasangan, atau bahkan mertuamu? Dinamika hubungan, kepribadian, dan lainnya tersedia dalam analisis eksklusif.",
+    "button": "Dapatkan Analisis Mendalam",
+    "coming_soon": "Fitur ini akan segera tersedia!",
+    "suggestion": "Ingin menganalisis gebetan juga? 💎 Konten premium menunggumu!"
+  },
+  "emotion": {
+    "happy": "Bahagia",
+    "sad": "Sedih",
+    "angry": "Marah",
+    "fear": "Takut",
+    "surprise": "Terkejut",
+    "disgust": "Jijik",
+    "neutral": "Netral"
+  },
+  "gender": {
+    "male": "Laki-laki",
+    "female": "Perempuan"
+  },
+  "race": {
+    "white": "Kulit Putih",
+    "black": "Kulit Gelap",
+    "asian": "Asia",
+    "indian": "India",
+    "middle_eastern": "Timur Tengah",
+    "latino_hispanic": "Latino / Hispanik"
+  },
+  "age_group_label": "{{age}} tahun",
+  "upload": {
+    "title": "Unggah Fotomu",
+    "pick_button": "Pilih dari Galeri",
+    "analyze_button": "Mulai Analisis",
+    "loading": "Sedang menganalisis..."
+  },
+  "confirm_title": "Penggunaan Kredit",
+  "confirm_message": "Analisis ini membutuhkan kredit berikut:",
+  "confirm": "Ya, mulai",
+  "cancel": "Batal",
+  "change_language": "🌐 Ganti Bahasa",
+  "tooltip": {
+    "message": "Pastikan wajah Anda sejajar dengan benar dan terang saat mengunggah foto Anda. Menempatkan wajah Anda langsung dan jelas di depan kamera akan membantu Anda mendapatkan hasil terbaik.",
+    "understood": "Dimengerti",
+    "warning": "Peringatan"
+  },
+  "credit_success": {
+    "message": "Kredit berhasil ditambahkan!",
+    "device_warning": "Catatan: Kredit Anda khusus untuk perangkat ini. Jika Anda menghapus aplikasi, kredit Anda akan hilang."
+  },
+  "credit_failed": {
+    "message": "Pembelian kredit gagal.",
+    "purchase_button": "Dapatkan Kredit / Coba Lagi"
+  },
+  "loading_packages": "Memuat Paket...",
+  "image_upload_load_text": "Ketuk untuk mengunggah",
+  "image_upload.select_first": "Silakan pilih gambar terlebih dahulu.",
+  "insufficient_credit_title": "Kredit Tidak Cukup",
+  "insufficient_credit_message": "Anda memerlukan {{required}} kredit untuk analisis ini. Saldo Anda saat ini adalah {{current}}. Apakah Anda ingin membeli kredit?",
+  "purchase_credits_button": "Beli Kredit",
+  "recovering_state": "Mohon tunggu...",
+  "image_upload.info_modal_title": "Seperti Apa Foto yang Benar?",
+  "image_upload.info_modal_message": "Harap unggah foto dengan pencahayaan yang baik, di mana wajah Anda terlihat jelas, menatap langsung ke kamera, dan tanpa aksesori seperti kacamata atau topi. Penting agar fitur wajah Anda terlihat jelas.",
+  "image_upload.info_modal_close": "Mengerti",
+  "exit_title": "Konfirmasi Keluar",
+  "exit_message": "Apakah Anda yakin ingin keluar dari aplikasi?",
+  "exit": "Keluar",
+  "splash": {
+    "messages": [
+      "Energi sedang selaras...",
+      "Jembatan antara pikiran dan jiwa mulai terbentuk...",
+      "Jejak masa lalu mulai muncul...",
+      "Gema spiritual tercermin di wajahmu...",
+      "Pembacaan mendalam akan segera dimulai..."
+    ],
+    "no_connection_title": "Tidak Ada Koneksi Internet",
+    "no_connection_message": "Aplikasi tidak dapat berjalan tanpa koneksi internet. Silakan periksa koneksi Anda.",
+    "init_error_title": "Kesalahan Inisialisasi",
+    "init_error_message": "Aplikasi tidak dapat dimulai. Silakan coba lagi.",
+    "ok": "OK"
+  },
+  "about_us": "Tentang Kami",
+  "help_screen_title": "Bantuan & Dukungan",
+  "email_optional_label": "Alamat Email Anda",
+  "email_placeholder": "contoh@email.com",
+  "message_label": "Pesan Anda",
+  "message_placeholder": "Anda dapat menulis masalah atau umpan balik Anda secara detail di sini...",
+  "send_button": "Kirim",
+  "help_message_required_alert": "Harap jangan biarkan kolom pesan kosong.",
+  "help_email_required_alert": "Harap masukkan alamat email Anda.",
+  "help_email_invalid_alert": "Harap masukkan alamat email yang valid.",
+  "help_message_sent_success": "Pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda.",
+  "help_message_sent_error": "Terjadi kesalahan saat mengirim pesan Anda. Silakan coba lagi nanti atau hubungi kami melalui saluran lain.",
+  "error": "Kesalahan",
+  "success": "Berhasil",
+  "ok": "OK",
+  "sessionExpiredTitle": "Sesi Berakhir",
+  "sessionExpiredMessage": "Silakan masuk lagi.",
+  "credit_info_loading": "Info kredit sedang dimuat, coba lagi.",
+  "image_upload": {
+    "select_first": "Silakan pilih gambar terlebih dahulu.",
+    "load_text": "Ketuk untuk mengunggah atau pilih gambar",
+    "analyze": "Analisis",
+    "title": "Unggah Gambar"
+  },
+  "modal_confirm": {
+    "free_title": "Analisis Gratis Harian",
+    "free_message": "Anda akan menggunakan hak analisis premium gratis harian Anda. Apakah Anda ingin melanjutkan?",
+    "paid_title": "Konfirmasi Analisis",
+    "paid_message": "Tindakan ini akan dikenakan biaya {{credit}} kredit. Apakah Anda yakin?",
+    "cancel_button": "Batal",
+    "confirm_button": "Konfirmasi"
+  },
+  "free_premium_banner": {
+    "available_today_message": "🎁 Hadiah dari SoulLens untuk Anda:\nJangan Lupa Gunakan Analisis Premium Gratis Anda!"
+  },
+  "errorScreen": {
+    "error_title": "Terjadi kesalahan",
+    "error_message": "Maaf, terjadi kesalahan saat analisis. Silakan coba lagi.",
+    "no_face_title": "Wajah Tidak Terdeteksi",
+    "no_face_message": "Tidak ada wajah manusia yang jelas terdeteksi pada foto yang diunggah. Silakan coba dengan foto lain.",
+    "invalid_image_title": "Foto Tidak Valid",
+    "invalid_image_message": "Foto yang diunggah tidak dapat diproses. Silakan coba dengan foto lain di mana wajah Anda terlihat jelas.",
+    "back_home": "Kembali ke Beranda"
+  }
+}

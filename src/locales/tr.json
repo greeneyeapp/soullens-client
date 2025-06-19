@@ -1,0 +1,226 @@
+{
+    "home": {
+        "title": "Yapay Zeka Destekli Fotoğraf Analizi",
+        "description": "Fotoğrafını yükle ve yapay zeka analiz etsin!",
+        "uploadButton": "Fotoğraf Yükle",
+        "analyzeButton": "Analiz Et",
+        "loadingMessage": "Sunucuyla bağlantı kuruluyor...",
+        "credits": "Kredin: {{count}}",
+        "continueButton": "Devam",
+        "self_speed_note": "Kendine yaptığın analizlerde hız seçimi gerekli değil."
+    },
+    "analyze_button": "Analiz Et",
+    "error_title": "Hata",
+    "no_permission": "Galeri erişim izni verilmedi.",
+    "error_message": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "confirmation_title": "Onay Gerekiyor",
+    "confirmation_message": "Bu analiz şu kadar kredi harcayacaktır",
+    "loading": {
+        "extra": "Analiz beklenenden uzun sürdü ama sabrınız için teşekkür ederiz. Sonuç birazdan hazır olacak!",
+        "fast": {
+            "step1": "Yüz özellikleri taranıyor...",
+            "step2": "Duygusal izler inceleniyor...",
+            "step3": "Yaş ve cinsiyet algılanıyor...",
+            "step4": "Karakter detayı oluşturuluyor...",
+            "step5": "Yorumlar hazırlanıyor...",
+            "step6": "Son dokunuşlar yapılıyor..."
+        },
+        "deep": {
+            "step1": "Zihin derinliklerine iniliyor...",
+            "step2": "Ruh halleri katman katman çözülüyor...",
+            "step3": "Geçmişin izleri yüz hatlarında aranıyor...",
+            "step4": "Etkileşim haritası çıkartılıyor...",
+            "step5": "Evrenin ritmine uygun yorumlar toplanıyor...",
+            "step6": "Özel analiz neredeyse hazır!"
+        },
+        "badge": {
+            "premium": "⭐ Premium Analiz",
+            "fast": "⚡ Hızlı Analiz"
+        }
+    },
+    "premium_offer": {
+        "title": "💎 Daha fazlasını keşfet!",
+        "descriptions": {
+            "self": {
+                "undefined": "Kendine ait analizle başladın ama daha derin ve özel analizler için Premium’a göz atabilirsin. Kredi ile başkalarını da çözümle!"
+            },
+            "partner": {
+                "fast": "Hızlı analiz tamamlandı! Ama daha detaylı ve kişisel bir yorum istersen, Premium analiz seni bekliyor.",
+                "deep": "Sevgilin hakkında etkileyici bir analiz aldın. Daha fazla kişi için analiz yapmak istiyorsan, birkaç kredi yeter!"
+            },
+            "ex": {
+                "fast": "Eski sevgiline hızlı bir bakış attık. Ama geçmişin derin izlerini keşfetmek istiyorsan Premium tam sana göre.",
+                "deep": "Geçmişin sırlarını aralamak istiyorsan daha fazla analizle bu yolculuğu genişletebilirsin."
+            },
+            "crush": {
+                "fast": "Platonik duyguların ipuçlarını yakaladık. Ama detaylar için Premium analizleri kaçırma!",
+                "deep": "Bu gizemli kişiyi derinlemesine çözümledik. Daha fazlası için Premium’la analiz alanını genişlet."
+            }
+        },
+        "button": "Kredi Satın Al"
+    },
+    "analysis_type": {
+        "title": "Kimi analiz etmek istiyorsun?",
+        "self": "Kendim",
+        "partner": "Sevgilim",
+        "ex": "Eski sevgilim",
+        "crush": "Flörtüm",
+        "free": "Ücretsiz",
+        "credit": "kredi"
+    },
+    "analysis_speed": {
+        "title": "Analiz Hızı",
+        "fast_title": "Hızlı Analiz",
+        "fast_description": "Hızlı ve uygun maliyetli analiz",
+        "deep_title": "Derin Analiz",
+        "deep_description": "Detaylı ve etkileyici analiz",
+        "credit": "kredi"
+    },
+    "purchase": {
+        "title": "Kredi Paketleri",
+        "subtitle": "İstediğin analizi yapmak için kredi seç!",
+        "back": "Geri Dön",
+        "credits": "kredi",
+        "fetch_packages_error": "Kredi paketlerini alırken bir hata oluştu!",
+        "no_packages_found": "Satın alma paketleri bulunamadı.",
+        "validation_failed": "Satın alma doğrulaması başarısız oldu.",
+        "generic_purchase_error": "Satın alma sırasında bir hata oluştu.",
+        "no_packages_available": "Kredi paketleri şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+        "retry": "Tekrar Dene"
+    },
+    "no_credits": "Yeterli krediniz yok. Premium analiz için kredi satın alın.",
+    "result": {
+        "summaryTitle": "Analiz Özeti",
+        "summaryFinished": "Analiz Tamamlandı!",
+        "emotionTitle": "Duygusal İçgörü",
+        "genderTitle": "Cinsiyet Analizi",
+        "raceTitle": "Köken ve Cilt Yorumu",
+        "vibeTitle": "Enerji ve Yorum",
+        "vibeCardTitle": "Enerji Profilin",
+        "detailsTitle": "Analiz Detayları",
+        "continue": "Devam Et",
+        "processTime": "İşlem süresi",
+        "quickOverview": "Genel Bakış",
+        "disclaimer": "Bu uygulama eğlence amaçlıdır ve sunduğu analizler bilimsel doğruluk taşımaz. Gerçek kişilik özellikleri ya da duygularla örtüşmeyebilir."
+    },
+    "premium": {
+        "title": "Daha Fazlası Sizi Bekliyor!",
+        "description": "İstersen sevgilini, flörtünü veya kaynananı analiz edebiliriz. Kişilik, ilişki dinamikleri ve daha fazlası bu özel analizde yer alacak.",
+        "button": "Detaylı Analiz Al",
+        "coming_soon": "Bu özellik yakında aktif olacak!",
+        "suggestion": "Flörtünü de analiz etmek ister misin? 💎 Premium içerikler seni bekliyor!"
+    },
+    "emotion": {
+        "happy": "Mutlu",
+        "sad": "Üzgün",
+        "angry": "Öfkeli",
+        "fear": "Korkmuş",
+        "surprise": "Şaşkın",
+        "disgust": "Tiksinmiş",
+        "neutral": "Nötr"
+    },
+    "gender": {
+        "male": "Erkek",
+        "female": "Kadın"
+    },
+    "race": {
+        "white": "Beyaz",
+        "black": "Siyahi",
+        "asian": "Asyalı",
+        "indian": "Hintli",
+        "middle_eastern": "Orta Doğulu",
+        "latino_hispanic": "Latin / Hispanik"
+    },
+    "age_group_label": "{{age}} yaş",
+    "upload": {
+        "title": "Fotoğrafını Yükle",
+        "pick_button": "Galeriden Seç",
+        "analyze_button": "Analizi Başlat",
+        "loading": "Analiz yapılıyor..."
+    },
+    "confirm_title": "Kredi Kullanımı",
+    "confirm_message": "Bu analiz şu kadar kredi gerektirir:",
+    "confirm": "Evet, başla",
+    "cancel": "İptal",
+    "change_language": "🌐 Dili Değiştir",
+    "credit_success": {
+        "message": "Krediler başarıyla eklendi!",
+        "device_warning": "Not: Kredileriniz bu cihaza özeldir. Uygulamayı silerseniz kredileriniz kaybolur."
+    },
+    "credit_failed": {
+        "message": "Kredi yükleme işlemi başarısız oldu.",
+        "purchase_button": "Kredi Al / Tekrar Dene"
+    },
+    "loading_packages": "Paketler Yükleniyor...",
+    "image_upload_load_text": "Yüklemek için dokun",
+    "image_upload.select_first": "Lütfen önce bir resim seçin.",
+    "insufficient_credit_title": "Yetersiz Kredi",
+    "insufficient_credit_message": "Bu analiz için {{required}} krediye ihtiyacınız var. Mevcut krediniz: {{current}}. Kredi almak ister misiniz?",
+    "purchase_credits_button": "Kredi Al",
+    "recovering_state": "Bekleyin...",
+    "image_upload.info_modal_title": "Doğru Fotoğraf Nasıl Olmalı?",
+    "image_upload.info_modal_message": "Lütfen yüzünüzün net bir şekilde göründüğü, iyi aydınlatılmış, doğrudan kameraya bakan ve gözlük, şapka gibi aksesuarların olmadığı bir fotoğraf yükleyin. Yüz hatlarınızın belirgin olması önemlidir.",
+    "image_upload.info_modal_close": "Anladım",
+    "exit_title": "Çıkışı Onayla",
+    "exit_message": "Uygulamadan çıkmak istediğinize emin misiniz?",
+    "exit": "Çıkış",
+    "splash": {
+        "no_connection_title": "İnternet Bağlantısı Yok",
+        "no_connection_message": "Uygulama internet bağlantısı olmadan çalışamaz. Lütfen bağlantınızı kontrol edin.",
+        "init_error_title": "Başlatma Hatası",
+        "init_error_message": "Uygulama başlatılamadı. Lütfen tekrar deneyin.",
+        "ok": "Tamam",
+        "messages": [
+            "Enerjiler hizalanıyor...",
+            "Zihinle ruh arasında bir köprü kuruluyor...",
+            "İzler geçmişten bugüne taşınıyor...",
+            "Ruhsal yankılar yüzünüze yansıyor...",
+            "Derin bir okuma birazdan başlayacak..."
+        ]
+    },
+    "about_us": "Hakkımızda",
+    "help_screen_title": "Yardım & Destek",
+    "email_optional_label": "E-posta Adresiniz",
+    "email_placeholder": "ornek@eposta.com",
+    "message_label": "Mesajınız",
+    "message_placeholder": "Sorununuzu veya geri bildiriminizi buraya detaylı bir şekilde yazabilirsiniz...",
+    "send_button": "Gönder",
+    "help_message_required_alert": "Lütfen mesaj alanını boş bırakmayın.",
+    "help_email_required_alert": "Lütfen e-posta adresinizi girin.",
+    "help_email_invalid_alert": "Lütfen geçerli bir e-posta adresi girin.",
+    "help_message_sent_success": "Mesajınız başarıyla gönderildi. En kısa sürede size geri dönüş yapacağız.",
+    "help_message_sent_error": "Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin veya bizimle başka bir kanaldan iletişime geçin.",
+    "error": "Hata",
+    "success": "Başarılı",
+    "ok": "Tamam",
+    "sessionExpiredTitle": "Oturum Süresi Doldu",
+    "sessionExpiredMessage": "Lütfen tekrar giriş yapın.",
+    "credit_info_loading": "Kredi bilgisi yükleniyor, lütfen tekrar deneyin.",
+    "image_upload": {
+        "select_first": "Lütfen önce bir resim seçin.",
+        "load_text": "Yüklemek için dokunun veya bir resim seçin",
+        "analyze": "Analiz Et",
+        "title": "Resim Yükle"
+    },
+    "modal_confirm": {
+        "free_title": "Günlük Ücretsiz Analiz",
+        "free_message": "Günlük ücretsiz premium analiz hakkınızı kullanmak üzeresiniz. Devam etmek istiyor musunuz?",
+        "paid_title": "Analizi Onayla",
+        "paid_message": "Bu işlem {{credit}} kredi harcayacaktır. Emin misiniz?",
+        "paid_message_plural": "Bu işlem {{credit}} kredi harcayacaktır. Emin misiniz?",
+        "cancel_button": "İptal",
+        "confirm_button": "Onayla"
+    },
+    "free_premium_banner": {
+        "available_today_message": "🎁 SoulLens’ten Sana Hediye:\nÜcretsiz Premium Analizini Kullanmayı Unutma!"
+    },
+    "errorScreen": {
+        "error_title": "Bir sorun oluştu",
+        "error_message": "Üzgünüz, analiz sırasında bir hata meydana geldi. Lütfen tekrar deneyin.",
+        "no_face_title": "Yüz Tespit Edilemedi",
+        "no_face_message": "Yüklediğiniz fotoğrafta analiz edilebilecek net bir insan yüzü bulunamadı. Lütfen farklı bir fotoğraf deneyin.",
+        "invalid_image_title": "Geçersiz Fotoğraf",
+        "invalid_image_message": "Yüklenen fotoğraf işlenemiyor. Lütfen yüzünüzün net göründüğü farklı bir fotoğraf yüklemeyi deneyin.",
+        "back_home": "Ana Sayfaya Dön"
+    }
+}
