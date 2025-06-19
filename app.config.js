@@ -4,13 +4,13 @@ import 'dotenv/config';
 const androidAppId = 'ca-app-pub-5658124024438456~5200880813';
 const iosAppId = 'ca-app-pub-5658124024438456~3161859075';
 
-const versionCode = 18; // Sürümü güncelleyelim
-const buildNumber = '18';
+const versionCode = 15;
+const buildNumber = '15';
 
 export default {
   name: 'SoulLens: AI Face Analyzer',
   slug: 'soullens',
-  version: '1.2.6', // Sürümü güncelleyelim
+  version: '1.2.3',
   orientation: 'portrait',
   icon: './assets/logo/icon.png',
   userInterfaceStyle: 'light',
@@ -42,6 +42,12 @@ export default {
     package: 'com.greeneyeapp.soullens',
     versionCode: versionCode,
     usesCleartextTraffic: true,
+    permissions: [
+      'android.permission.READ_MEDIA_IMAGES',
+      'com.android.vending.BILLING',
+      'android.permission.INTERNET',
+      'android.permission.ACCESS_NETWORK_STATE',
+    ],
   },
   web: {
     favicon: './assets/favicon.png',
@@ -51,6 +57,8 @@ export default {
       projectId: '0fb8d8bb-a11c-4358-aedd-989dcfbb3191',
     },
     API_URL: process.env.API_URL,
+    ADMOB_ANDROID_APP_ID: androidAppId,
+    ADMOB_IOS_APP_ID: iosAppId,
   },
   owner: 'muhammedbozkurt',
   newArchEnabled: true,
@@ -61,24 +69,13 @@ export default {
       'expo-build-properties',
       {
         android: {
-          // Tüm build ortamını net bir şekilde tanımlayarak çakışmaları önlüyoruz.
           compileSdkVersion: 34,
           targetSdkVersion: 34,
           buildToolsVersion: "34.0.0",
-          // AdMob ve Expo'nun güncel SDK'ları ile uyumlu, stabil bir Kotlin sürümü seçiyoruz.
-          kotlinVersion: '1.9.22',
-          permissions: [
-            'android.permission.READ_MEDIA_IMAGES',
-            'com.android.vending.BILLING',
-          ],
+          kotlinVersion: '1.9.23',
+          composeCompilerVersion: '1.5.11',
         },
       },
     ],
-    // Reklam kütüphanesi eklentisi
-    'react-native-google-mobile-ads',
   ],
-  // Eklentinin doğru yapılandırması
-  'react-native-google-mobile-ads': {
-    android_app_id: androidAppId,
-  },
 };
